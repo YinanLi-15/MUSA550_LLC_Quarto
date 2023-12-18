@@ -5,14 +5,14 @@ project:
     port: 3333
 
 website:
-  title: "MUSA 550 Quarto Template"
-  site-url: "https://musa-550-fall-2023.github.io/quarto-website-template" 
-  repo-url: https://github.com/MUSA-550-Fall-2023/quarto-website-template 
+  title: "Does NYC Metro Region Have a Home-job Balance?"
+  site-url: "https://nyc_home-job_balance.github.io/quarto-website-template" 
+  repo-url: https://github.com/YinanLi-15/MUSA550_LLC_Quarto 
   repo-actions: [source]
 
   page-footer:
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
-    left: "&copy; CC-Nick Hand, 2023"
+    left: "&copy; CC-Yinan Li, 2023"
 
   sidebar:
     logo: "images/course-icon.png"
@@ -38,10 +38,10 @@ website:
       - about.qmd
       - section: analysis/index.qmd
         contents:
-          - analysis/1-python-code-blocks.qmd 
-          - analysis/2-static-images.ipynb
-          - analysis/3-altair-hvplot.ipynb
-          - analysis/4-folium.ipynb
+          - analysis/1_Data_Processing.ipynb 
+          - analysis/2_LODES.ipynb
+          - analysis/3_ACS.ipynb
+          - analysis/4_.ipynb
 
 format:
   html:
